@@ -7,8 +7,10 @@
     <title>Form</title>
 </head>
 <body>
-
+    
     <div class="container">
+
+        <!-- display inline block inline-block -->
         <form id="form" class="form">
             <h2>Register With Us</h2>
             <div class="form-control">
@@ -16,25 +18,28 @@
                 <input type="text" id="username" placeholder="Enter Username">
                 <small>Error Message</small>
             </div>
-            <div class="form-control">
+
+            <div class="form-control ">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter email">
+                <input type="text" id="email"  placeholder="Enter email" name="vetendashin_emaili">
                 <small>Error Message</small>
             </div>
-            <div class="form-control">
+            <div class="form-control ">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter password">
+                <input type="password"  id="password" placeholder="Enter password" name="vetendashin_shifresi">
                 <small>Error Message</small>
             </div>
-            <div class="form-control">
+            <div class="form-control ">
                 <label for="password2">Confirm Password</label>
-                <input type="password" id="password2" placeholder="Enter password again">
+                <input type="password" id="confirm-password" placeholder="Enter password again">
                 <small>Error Message</small>
             </div>
             <button>Submit</button>
         </form>
     </div>
-    
-   <script src=""></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./index.js"></script>
 </body>
 </html>
